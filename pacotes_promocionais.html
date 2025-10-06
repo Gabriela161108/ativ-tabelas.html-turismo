@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Turismo</title>
+
+    <style>
+
+        table {
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgb(8, 0, 121);
+            background-color: rgb(206, 232, 255);
+            margin-left: 230px;
+            border-radius: 5px;
+            font-family: cursive;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 20px;
+
+        }
+
+        a:hover {
+            color: black;
+            transform: scale(1.2);
+            transition: 400ms ease;
+        }
+        
+        tr {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        td {
+            padding: 5px;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: skyblue;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            align-items: center;
+         }
+        
+        footer {
+            background-color: skyblue;
+            font-size: 16px;
+        }
+        
+        body {
+            background-color: rgb(67, 149, 182);
+        }
+        
+        .a {
+            font-size: 15px;
+            font-family: 'Times New Roman', Times, serif;
+            color: purple;
+            text-decoration: none;
+        }
+
+        .a:hover {
+            color: black;
+            transform: scale(1.1);
+            transition: 200ms ease;
+        }
+
+        button {
+            border-radius: 10px;
+            border: 1px solid rgb(209, 164, 252);
+            transform: scale(0.99);
+            background-color: rgb(172, 190, 240);
+        }
+
+        button:hover {
+            transition: 300ms ease;
+            transform: scale(1.2);
+        }
+
+        img {
+            border-radius: 10px;
+            border: 1px solid black;
+            box-shadow: 2px 2px 10px black;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <img src="img/logo.jpg" alt="" width="90px" >
+            <a href="index.html">Home</a> 
+            <a href="pacotes_promocionais.html">Destinos</a> 
+            <a href="">Nossos profissionais</a> 
+            <a href="">Quem somos</a> 
+        </nav>
+    </header>
+
+    <main>
+
+        <table border="1">
+            <tr>
+                <th>Período da promoção</th>
+                <th>Destino</th>
+                <th>Descrição do pacote</th>
+                <th>Local</th>
+                <th>Preço (R$)</th>
+                <th></th>
+            </tr>
+
+            <tr>
+                <td>12/01/2025 até 12/02/2025</td>
+                <td>Jaya Machupicchu Boutique Hotel - Peru</td>
+                <td>Passagem aérea de São Paulo - hospedagem 1 semana - ida e volta</td>
+                <td><img src="img/hotel.jpg" alt="" width="200px"></td>
+                <td>973,00</td>
+                <td><button class="a"><a href="https://www.hoteis.com/ho648342112/jaya-suite-machupicchu-machu-picchu-peru?chkin=2025-10-20&chkout=2025-10-21&x_pwa=1&rfrr=HSR&pwa_ts=1759773972739&referrerUrl=aHR0cHM6Ly93d3cuaG90ZWlzLmNvbS9Ib3RlbC1TZWFyY2g%3D&useRewards=false&rm1=a2&regionId=178042&destination=Machu%20Picchu%2C%20Cusco%20(regi%C3%A3o)%2C%20Peru&destType=MARKET&latLong=-13.163141%2C-72.54496&sort=RECOMMENDED&top_dp=973&top_cur=BRL&gclid=Cj0KCQjw0Y3HBhCxARIsAN7931WXBtukTxpLbRYbK6RJZs77HOgjH4f-M6Sat0-i4IWsvyoeMA6--UoaAtwiEALw_wcB&semcid=HCOM-BR.UB.GOOGLE.DT-c-PT.HOTEL&semdtl=a113065722797.b1122960338460.g1kwd-328173304448.e1c.m1Cj0KCQjw0Y3HBhCxARIsAN7931WXBtukTxpLbRYbK6RJZs77HOgjH4f-M6Sat0-i4IWsvyoeMA6--UoaAtwiEALw_wcB.r1721f8b1be2d65ccc32820d67bc9273ba8a7fa00908c7e84f34a4d33d3eb8c050.c1.j19074295.k1.d1720998746517.h1e.i1.l1.n1.o1.p1.q1.s1hospedagem%20machu%20picchu.t1.x1.f1.u1.v1.w1&userIntent=&selectedRoomType=315810487&selectedRatePlan=397254787&expediaPropertyId=20229441&searchId=318c9028-b148-44cc-b94d-12e35e82c69c" target="_blank">Comprar</a></button></td>
+            </tr>
+
+            <tr>
+                <td>13/01/2025 até 22/02/2025</td>
+                <td>Berlim - Alemanha</td>
+                <td>Passagem vôo São Paulo até Berlim - 7 dias - ida e volta</td>
+                <td><img src="img/berlim.jpg" alt="" width="200px"></td>
+                <td>4.021,00</td>
+                <td><button class="a"><a href="https://www.decolar.com/passagens-aereas/sao/ber/passagens-aereas-para-berlim-saindo-de-sao+paulo" target="_blank">Comprar</a></button></td>
+            </tr>
+
+            <tr>
+                <td>30/03/2025 até 16/04/2025</td>
+                <td>Xangai - China</td>
+                <td>Passagem aérea de São Paulo até Xangai - ida e volta - 4 dias</td>
+                <td><img src="img/xangai.jpg" alt="" width="200px"></td>
+                <td>8.455,00</td>
+                <td><button class="a"><a href="https://www.decolar.com/shop/flights/results/roundtrip/SAO/SHA/2025-11-08/2025-12-09/1/0/0" target="_blank">Comprar</a></button></td>
+            </tr>
+
+            <tr>
+                <td>06/07/2025 até 01/08/2025</td>
+                <td>Havaí</td>
+                <td>Vôo de São Paulo para Havaí - Ida - 4 dias</td>
+                <td><img src="img/havai.jpg" alt="" width="200px"></td>
+                <td>5.518,00</td>
+                <td><button class="a"><a href="https://www.kayak.com.br/flights/SAO-HNL/2025-11-01/2025-11-04?ucs=h9wpsg&sort=bestflight_a#default" target="_blank">Comprar</a></button></td>
+            </tr>
+
+            <tr>
+                <td>29/05/2025 até 05/06/2025</td>
+                <td>Londres - Inglaterra</td>
+                <td>Vôo Ida e volta - 8 dias - de São Paulo até Londres</td>
+                <td><img src="img/londres.jpg" alt="" width="200px"></td>
+                <td>6.393,28</td>
+                <td><button class="a"><a href="https://www.latamairlines.com/br/pt/destinos/reino-unido?gclsrc=aw.ds&gad_source=1&gad_campaignid=15843990153&gbraid=0AAAAADxeDvjRZ5EbaQH7WPJ27fg84k44b&gclid=Cj0KCQjw0Y3HBhCxARIsAN7931X_Y4Ir-dKAcp0klotWYeG88FuixM-5xbmmXfDQdYyMdtQ7ttgJNucaAl-YEALw_wcB" target="_blank">Comprar</a></button></td>
+            </tr>
+
+        </table>
+
+    </main>
+
+    <footer>
+        <center>
+            <p>Desenvolvido por Gabriela Borges</p>
+            <p>Todos os direitos reservados à Gabriela Borges</p>
+        </center>
+    </footer>
+    
+</body>
+</html>
